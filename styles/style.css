@@ -30,8 +30,6 @@
     font-weight: bold;
     color: #E95A08;
 }
-
-
 /* navbar style */
 .navbar{
     justify-content: space-between;
@@ -94,6 +92,33 @@ main{
     grid-template-columns: repeat(4, 4fr);
 
 }
+.lover-section{
+    padding-top: 150px;
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    position: relative;
+}
+.lovers-title{
+    font-size: 3.2rem;
+}
+.badge img{
+    max-width: 286px;
+    max-height: 286px;
+    position: absolute;
+    top: -5px;
+    left: 400px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (max-width: 576px) {
     .navbar{
@@ -121,9 +146,6 @@ main{
     }
     .card{
         margin: 5px;
-    }
-    .btn-primary{
-        font-size: 12px;
     }
     
 }
