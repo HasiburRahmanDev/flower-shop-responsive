@@ -24,7 +24,7 @@
     font-size: 50px;
 }
 .text-size-xl{
-    font-size: 65;
+    font-size: 65px;
 }
 .text-bold-orange{
     font-weight: bold;
@@ -50,12 +50,24 @@
     color:black;
 }
 
+.banner{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+.banner img{
+    width: auto;
+}
+
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
     }
     .hide-mobile{
         display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: start;
     }
     
 }
