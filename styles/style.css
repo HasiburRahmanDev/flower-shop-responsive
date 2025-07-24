@@ -147,6 +147,15 @@ main{
     .card{
         margin: 5px;
     }
+    .lover-section{
+        flex-direction: column;
+    }
+    .lover-section img{
+        max-width: 100%;
+    }
+    .badge{
+        display: none;
+    }
     
 }
 
