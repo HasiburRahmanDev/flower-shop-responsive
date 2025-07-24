@@ -58,6 +58,14 @@
     width: auto;
 }
 
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.cards{
+    border: 2px solid tomato;
+}
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
