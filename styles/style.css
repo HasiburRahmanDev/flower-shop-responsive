@@ -107,6 +107,9 @@ main{
         flex-direction: column-reverse;
         align-items: start;
     }
+    .banner img{
+        max-width: 100%;
+    }
     .cards{
         grid-template-columns: repeat(2, 2fr);
         margin-right: 5px;
@@ -115,6 +118,12 @@ main{
         max-width: 100%;
         height: auto;
         display: block;
+    }
+    .card{
+        margin: 5px;
+    }
+    .btn-primary{
+        font-size: 12px;
     }
     
 }
