@@ -119,6 +119,12 @@ main{
     transform: rotate(360deg);
   }
 }
+.deals-title{
+    margin-bottom: 0;
+}
+.deals-description{
+    font-size: 1.4rem;
+}
 
 @media screen and (max-width: 576px) {
     .navbar{
