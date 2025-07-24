@@ -125,7 +125,10 @@ main{
 .deals-description{
     font-size: 1.4rem;
 }
-
+.deals-images{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
