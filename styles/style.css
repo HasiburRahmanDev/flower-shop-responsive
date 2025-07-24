@@ -119,6 +119,9 @@ main{
     transform: rotate(360deg);
   }
 }
+.deal-section{
+    max-width: 1140px;
+}
 .deals-title{
     margin-bottom: 0;
 }
@@ -126,9 +129,13 @@ main{
     font-size: 1.4rem;
 }
 .deals-images{
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
+    display: flex;
+    row-gap: 20px;
 }
+.deals-images img{
+    border-radius: 14px;
+}
+
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
@@ -164,6 +171,12 @@ main{
     }
     .badge{
         display: none;
+    }
+    .deals-images{
+        flex-direction: column;
+    }
+    .deals-images img{
+        max-width: 100%;
     }
     
 }
