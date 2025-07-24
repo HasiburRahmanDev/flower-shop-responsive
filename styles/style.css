@@ -18,13 +18,13 @@
     color: #8987A1;
 }
 .text-size-md{
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 .text-size-lg{
-    font-size: 50px;
+    font-size: 3.1rem;
 }
 .text-size-xl{
-    font-size: 65px;
+    font-size: 4rem;
 }
 .text-bold-orange{
     font-weight: bold;
@@ -61,11 +61,40 @@
 main{
     max-width: 1140px;
     margin: auto;
+    text-align: center;
+}
+.plants{
+    max-width: 1140px;
+    margin: auto;
+}
+.card{
+    margin: auto;
+}
+.flower-name{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.btn-primary{
+    background-color: #E95A08;
+    border: none;
+    padding: 26px 50px;
+    max-width: 270px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+
 }
 
-.cards{
-    border: 2px solid tomato;
-}
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
@@ -77,6 +106,15 @@ main{
     .banner{
         flex-direction: column-reverse;
         align-items: start;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 2fr);
+        margin-right: 5px;
+    }
+    .card img{
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
     
 }
