@@ -61,6 +61,7 @@
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
+        justify-content: space-between;
     }
     .hide-mobile{
         display: none;
