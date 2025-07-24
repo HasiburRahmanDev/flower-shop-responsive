@@ -164,7 +164,16 @@ main{
     border: 0;
     color: white;
 }
-
+.footerr{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+.footerr a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+}
 @media screen and (max-width: 576px) {
     .navbar{
         margin-top: 10px;
@@ -201,7 +210,7 @@ main{
     .badge{
         display: none;
     }
-    .deals-images{
+    .deals-images, .footerr{
         flex-direction: column;
     }
     .deals-images img{
